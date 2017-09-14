@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <title>Nick Lim's Personal Profile</title>
+    <!--favicon-->
+    <link rel="apple-touch-icon" href="images/apple-icon-180x180.png" />
+    <link rel="icon" href="images/favicon-96x96.png" />
+
+	 <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+    <!--pace (page loader) style-->
+    <link href="css/pace.css" rel="stylesheet" />
+    <script src="js/pace.min.js"></script>
+
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- FontAwesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Typed -->
+    <script src="js/typed.min.js"></script>
+    <link href="css/typed.css" rel="stylesheet">
+
+    <!-- Initialization Script -->
+    <script src="js/init.js"></script>
+   
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Themes styles-->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- black skin-->
+  </head>
+
+
+  <body  data-spy="scroll" data-target=".menu-area" data-offset="200">
+    <!--wrapper page-->
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header" id="home">
+        <div class="content-table header-content-fixed ">
+          <div class="v-content" style="vertical-align: bottom;"> 
+            <div class="container">
+              <h1 class="text-uppercase color-light name">Nick Lim Jin Sean</h1>
+              <h4  class="text-uppercase color-light font-alt job">
+              <div id="typed-strings">
+                <p>I'm a New Zealand-based PhD candidate in <span>Statistical Learning.</span></p>
+                <p>My passions include <span>technology</span> and <span>education</span>. </p>
+                <p>My Research Interest includes <span>mathematical modelling</span>, <span>simulation</span> and <span>optimization of complex systems</span>.</p>
+              </div>
+              <span id="typed" class="typed"></span>
+              </h4>
+              <p class="white-space-60">&nbsp;</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Main navbar -->
+        <div class="menu-area">
+          <div class="toogle-bars">
+            <a href="#menu-collapse" data-toggle="collapse" class="collapsed"><i class="fa fa-bars ic-open"></i> <i class="fa fa-remove ic-close"></i>MENU</a>
+          </div>
+          <div class="menu-collapse collapse" id="menu-collapse">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul class="breadcrumb main-nav nav">
+                    <li class="active"><a href="#home" class="link-inpage">Home</a></li>
+                    <li ><a href="#about" class="link-inpage">About</a></li>
+                    <li ><a href="#resume" class="link-inpage">Resume</a></li>
+                    <li ><a href="#gallery" class="link-inpage">Gallery</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <ul class="breadcrumb main-nav no-space">
+				     		<li><a href="https://www.facebook.com/martianunlimited"><i class="fa fa-facebook"></i></a></li>
+      		     		<li><a href="https://plus.google.com/u/0/+NickLimJinSean"><i class="fa fa-google-plus"></i></a></li>
+            	     	<li><a href="http://nz.linkedin.com/in/martianunlimited"><i class="fa fa-linkedin"></i></a></li>
+		     				<li><a href="https://www.instagram.com/martianunlimited"><i class="fa fa-instagram"></i></a></li>
+  		     				<li><a href="https://profile.live.com/cid-edae8d98c4122716"><i class="fa fa-skype"></i></a></li>
+        	     			<li><a href="https://nz.pinterest.com/martianunlimite"><i class="fa fa-pinterest"></i></a></li>
+ 		     				<li><a href="https://www.flickr.com/photos/21396784@N02/"><i class="fa fa-flickr"></i></a></li>
+		     				<li><a href="http://martianunlimited.deviantart.com/"><i class="fa fa-deviantart"></i></a></li>                
+            	     	<li><a href="https://foursquare.com/user/4139771"><i class="fa fa-foursquare"></i></a></li>                
+      		     		<li><a href="https://github.com/martianunlimited"><i class="fa fa-github"></i></a></li>                
+		     				<li><a href="https://jsfiddle.net/user/martianunlimited/"><i class="fa fa-jsfiddle"></i></a></li>                               
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Main navbar -->
+      </header><!-- End Main Header -->
+
+      <!-- ABOUT ME -->
+      <section id="about" class="block-section">
+        <div class="clearfix my-profile">
+          <div class="my-pict" >
+            <div class="overfly">
+              <div class="text-botttom">
+                <h2 class="text-uppercase color-brightorange text-bold">Nick Lim Jin Sean</h2>
+                <h5 class="text-uppercase color-brightorange font-alt ">Doctoral Candidate</h5>
+              </div>
+            </div>
+          </div>
+          <div class="my-desc">
+            <div class="bg-light clearfix">
+              <div class="inner-text">
+                <h3 class=" color-dark no-margin-top">Hello There!</h3>
+                <p>
+		I am a Doctoral Candidate in Statistics with a concentration on Statistical Learning (Machine Learning). I have prior working
+                experience as an Component Design Engineer in a major semiconductors MNC. I am passionate about technology and education, with 
+                strong technical skills, and experience in teaching. In my free time, I enjoy photography, paper craft, music and the mountains. I would
+                be an avid gamer, but I lack the necessary twitch reaction time needed for most games, and I stay mainly with strategy and role-playing
+                games. I am very opinionated on religion, theology, philosophy, politics, sociology, and believe strongly in social justice and welfare 
+		of children.
+		</p>
+              </div>
+            </div>
+            <div class="bg-black clearfix">
+              <div class="inner-text">
+                <p class="no-margin color-light ">
+                  <strong class="fix-width-100"><i class="fa fa-globe margin-right-5"></i> Website</strong> : www.nicklim.com<br/>
+                  <strong class="fix-width-100"><i class="fa fa-location-arrow margin-right-5"></i> Address</strong> : University of Waikato, 3210 Hamilton East, Hamilton, New Zealand<br/>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- END ABOUT ME -->
+
+
+      <!-- RESUME -->
+      <section id="resume" class="block-section">
+      <div class="row bg-dark">
+        <div class="container ">
+          <ul class="resumebtn list-unstyled clearfix">
+            <li class="col-xs-4 no-padding">
+             <a href="#work">
+              <div class="box">
+                <div class="ic"><i class="fa fa-briefcase"></i></div>
+                <h5 class="text-uppercase color-light hidden-xs">Work Experience</h5>
+              </div>
+             </a>
+            </li>
+            <li class="col-xs-4 no-padding">
+	     <a href="#education">              
+              <div class="box">
+                <div class="ic"><i class="fa fa-graduation-cap"></i></div>
+                <h5 class="text-uppercase color-light hidden-xs">Education</h5>
+              </div>
+             </a>
+            </li>
+            <li class="col-xs-4 no-padding">
+	     <a href="#interest">             
+              <div class="box ">
+                <div class="ic"><i class="fa fa-camera"></i></div>
+                <h5 class="text-uppercase color-light hidden-xs">Interests</h5>
+              </div>
+             </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+<!--
+        <div class=" shape-bottom">
+          <div class="bg-secondary block-title">
+            <div class="container">
+              <h2 class="text-uppercase color-dark text-bold no-margin">Employment</h2>
+              <div class="title-icon"> <i class="fa fa-briefcase"></i> </div>
+            </div>
+          </div>
+        </div>
+-->
+
+      <div class="row bg-black">
+        <div class="container bg-light">
+          <div class="list-employment" id="work">
+            <ul class="list-unstyled  clearfix">
+              <li>
+                <div class="ic"><i class="fa fa-briefcase"></i></div>
+                <div class="number font-alt">01</div>
+                <div class="desc">
+                  <h5 class="text-uppercase color-dark text-bold">Teaching Assistant</h5>
+                  <p class="font-alt color-dark">University of Waikato</p>
+                  <p class="info color-dark"><em class="date">February 2014 - Present</em></p>
+                  <p> I was responsible for the teaching duty for first year undergraduate students, in addition to test 
+		      supervision and grading of assessments. I am often called upon by department and scholarships department 
+		      in to provide 1 on 1 tutoring for students who require additional help.
+                  </p>
+                  <p>
+	  	      Additionally, I have also assist the faculty as a community ambassador. My primary roles include in introducing the Mathematics and Statistics 
+	  	      department in a fun, intuitive and engaging manner to the community in Hamilton, and communicate with the community regarding the value of a degree
+	  	      in Mathematics and Statistics to the industry and society.                     
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="ic"><i class="fa fa-briefcase"></i></div>
+                <div class="number font-alt">02</div>
+                <div class="desc">
+                  <h5 class="text-uppercase color-dark text-bold">Component Design Engineer, Design Automation Engineer</h5>
+                  <p class="font-alt color-dark">Intel Corporation</p>
+                  <p class="info color-dark"><em class="date">May 2004 - February 2011</em></p>
+	          <p> I was primarily responsible for the development and maintenance of EDA tools and methodology development
+		      for Power Estimation, optimization, simulation for Custom ASIC Designs. These ASIC design is used in consumer and
+		      enterprise computers and other computing devices such as smartphones and tablets. 						
+	   	  </p>
+		  <p> 
+		      In particular, I was responsible for IBIS and Timing .LIB modeling of Custom ASIC Design. The software I
+		      maintain ensure that the design conforms to the performance and power specification of customers and while 
+		      streamlining the design process to improve the productivity of the engineers.
+                  </p>
+                  <p>
+	 	      During my employment I have been awarded several technical and departmental achievement awards for my both my
+	 	      contribution to projects and the company's bottom line as well for my role in improving the work environment 
+	 	      for the employees.                   
+                  </p> 
+ 
+                </div>
+              </li>
+              <li>
+                <div class="ic"><i class="fa fa-briefcase"></i></div>
+                <div class="number font-alt">03</div>
+                <div class="desc">
+                  <h5 class="text-uppercase color-dark text-bold">Intern</h5>
+                  <p class="font-alt color-dark">British Telecom Exact</p>
+                  <p> I was an intern with the research arm of British Telecom, and I developed on four mini projects during my internship; 
+                      mainly for system maintenance, application deployment to a major national network carrier.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+	<!--END EMPLOYEMNT-->
+	</div>
+        <!--EDUCATION-->
+        <div class=" shape-bottom">
+          <div class="bg-darker block-title">
+            <div class="container">
+              <h2 class="text-uppercase color-light text-bold no-margin">Education</h2>
+              <div class="ic"> <i class="fa fa-graduation-cap"></i> </div>
+            </div>
+          </div>
+        </div>
+        <div class="row bg-black">
+        <div class="container bg-light">
+          <div class="list-education" id="education">
+            <ul class="list-unstyled  clearfix">
+              <li>
+                <div class="ic"><i class="fa fa-graduation-cap"></i></div>
+                <div class="number font-alt">01</div>
+                <div class="desc">
+                  <h5 class="text-uppercase color-dark text-bold">University of Waikato</h5>
+                  <p class="font-alt color-dark">2015-present</p>
+                  <p class="font-alt color-dark">Hamilton, New Zealand</p>
+                  <h5 class="color-dark">Doctorate of Philosophy, Statistics</h5>
+                  <p>My Research is on the Ensemble learning of High-Dimension Datasets, in the field of statistical learning. I am 
+                  currently supported by the University of Waikato Doctoral Scholarship.</p>
+                </div>
+              </li>
+              <li>
+                <div class="ic"><i class="fa fa-graduation-cap"></i></div>
+                <div class="number font-alt">02</div>
+                <div class="desc">
+                  <h5 class="text-uppercase color-dark text-bold">University of Waikato</h5>
+                  <p class="font-alt color-dark">2013-2014</p>
+                  <p class="font-alt color-dark">Hamilton, New Zealand</p>
+                  <h5 class="color-dark">Masters of Science, Mathematics</h5>
+                  <p> My research was on The star decomposition of bipartite graphs, in the field of combinatorics. I was awarded the A Zualauf 
+                  studentship for Masters students. Additionally I am also admitted into the Golden Keys Honour Society. I graduated with a First
+                  Class Honours with an overall GPA of 8.25/9.0</p>
+                </div>
+              </li>
+              <li>
+                <div class="ic"><i class="fa fa-graduation-cap"></i></div>
+                <div class="number font-alt">03</div>
+                <div class="desc">
+                  <h5 class="text-uppercase color-dark text-bold">Multimedia University</h5>
+                  <p class="font-alt color-dark">1999-2004</p>
+                  <p class="font-alt color-dark">Cyberjaya, Malaysia</p>
+                  <h5 class="color-dark">Bachelors of Engineering, Electronics Majoring in Telecommunications</h5>
+                  <p>I was a multiple entrant into the Dean's List, and the runner up of the Intervarsity Engineering Competition in my Second Year
+                  of my course. I completed my degree with a First Class Honours, and a GPA of 3.67/4.00</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div> <!--END EDUCATION-->
+
+        <!--SKILLS-->
+        <div class=" shape-bottom">
+          <div class="bg-darker block-title">
+            <div class="container">
+              <h2 class="text-uppercase color-light text-bold no-margin">Interests</h2>
+              <div class="ic"><i class="fa fa-photo"></i></div>
+            </div>
+          </div>
+        </div>
+	<div class="row bg-black"> 
+   	<div class="container bg-light">	
+          <div class="list-interests" id="interests">
+            My interests are mainly in the area of programming and visualization as well as craft work and cooking. 
+          </div>
+        </div>
+	</div>
+
+        <!-- DOWNLOAD & PRVIEW BTN -->
+        <div class="bg-darkest" >
+          <div class="container">
+            <div class="padding30 text-center">
+              <a href="JSLim_CV.pdf" class="btn btn-flat-line btn-default light-font "><i class="fa fa-download"></i>  Download CV</a>
+            </div>
+          </div>
+        </div><!-- END DOWNLOAD & PRVIEW BTN -->
+      </section><!-- END SERVICES-->
+
+
+      <!--PORTFOLIO-->
+      <section id="gallery" class="block-section">
+      <div class="row bg-dark">
+        <div class="container ">
+          <ul class="resumebtn list-unstyled clearfix">
+            <li class="col-xs-4 no-padding">
+             <a href="#work">
+              <div class="box">
+                <div class="ic"><i class="fa fa-briefcase"></i></div>
+                <h5 class="text-uppercase color-light hidden-xs">Work Experience</h5>
+              </div>
+             </a>
+            </li>
+            <li class="col-xs-4 no-padding">
+	     <a href="#education">              
+              <div class="box">
+                <div class="ic"><i class="fa fa-graduation-cap"></i></div>
+                <h5 class="text-uppercase color-light hidden-xs">Education</h5>
+              </div>
+             </a>
+            </li>
+            <li class="col-xs-4 no-padding">
+	     <a href="#interest">             
+              <div class="box ">
+                <div class="ic"><i class="fa fa-camera"></i></div>
+                <h5 class="text-uppercase color-light hidden-xs">Interests</h5>
+              </div>
+             </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row bg-black">
+        <div class="parallax-bg" >
+          <div class="container bg-dark">
+            <div class="padding30 text-center">
+	      Some of my miscellenous work that I do.  
+            </div>
+	  </div>
+        </div>
+      </div>
+      </section>
+
+  
+
+      <!--FOOTER-->
+      <footer class="main-footer">
+        <div class="container">
+          <div class="folow-me">
+            Follow Me On
+          </div>
+		               
+ 
+ 
+          <ul class="list-inline social-links text-center">
+	    <li><a href="https://www.facebook.com/martianunlimited" data-toggle="tooltip"  data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+      	    <li><a href="https://plus.google.com/u/0/+NickLimJinSean" data-toggle="tooltip"  data-placement="top" title="Google"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="http://nz.linkedin.com/in/martianunlimited" data-toggle="tooltip"  data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+	    <li><a href="https://www.instagram.com/martianunlimited" data-toggle="tooltip"  data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+     	    <li><a href="https://nz.pinterest.com/martianunlimite" data-toggle="tooltip"  data-placement="top" title="PInterest" ><i class="fa fa-pinterest"></i></a></li>
+ 	    <li><a href="https://www.flickr.com/photos/21396784@N02/" data-toggle="tooltip"  data-placement="top" title="flickr"><i class="fa fa-flickr"></i></a></li>
+	    <li><a href="https://github.com/martianunlimited" data-toggle="tooltip"  data-placement="top" title="Github"><i class="fa fa-github"></i></a></li>                
+	  </ul>
+
+          <a href="#home" class="back-to-top"><i class="fa fa-angle-double-up" ></i></a>
+        </div>
+      </footer><!--END FOOTER-->
+    </div><!--End wrapper page-->
+
+  </body>
+</html>
