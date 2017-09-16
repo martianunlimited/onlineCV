@@ -312,7 +312,7 @@ blockquote {
   font-weight: 300;
 }
 .font-alt {
-  font-family: Georgia;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
 }
 .br-right {
   border-right: 1px solid #ebebeb !important;
@@ -926,11 +926,11 @@ border-color: #ccc;
      05. MAIN-HEADER
 ============================*/
 .main-header {
-  height: 600px;
+  height: 800px;
   position: relative;
 }
 .main-header .header-content-fixed {
-  height: 600px;
+  height: 800px;
   background: url(../images/header-background.jpg) no-repeat top center;
   background-size: contain;
   background-attachment: fixed;
@@ -1029,7 +1029,7 @@ border-color: #ccc;
 @media (max-width: 880px) {
   .my-profile .my-pict {
     position: relative;
-    height: 300px;
+    height: 800px;
   }
 }
 .my-profile .my-pict .overfly {
