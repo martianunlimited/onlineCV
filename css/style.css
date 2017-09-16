@@ -299,6 +299,12 @@ blockquote {
 .text-bold {
   font-weight: 700;
 }
+.text-indent-3 {
+  text-indent: 3em;
+}
+.text-indent-2 {
+  text-indent: 2em;
+}
 .text-extra-bold {
   font-weight: 800;
 }
@@ -409,7 +415,7 @@ blockquote {
 }
 
 .block-title {
-  padding: 40px 0;
+  padding: 20px 0;
   z-index: 3;
   position: relative;
   border-top: 1px solid #ebebeb;
@@ -639,7 +645,7 @@ padding: 5px 5px;
   bottom: inherit;
   border-bottom: 1px solid #ebebeb;
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .menu-area .menu-collapse.collapse {
     display: block;
     height: auto !important;
@@ -936,7 +942,7 @@ border-color: #ccc;
 .main-header .header-content-fixed:before {
   content: "";
   position: absolute;
-  width: 50.01%;
+  width: 50.001%;
   transition: top 1s ease 0.3s, background 1s ease 0s;
   -webkit-transition: top 1s ease 0.3s, background 1s ease 0s;
   -moz-transition: top 1s ease 0.3s, background 1s ease 0s;
@@ -945,12 +951,12 @@ border-color: #ccc;
   left: 0;
   top: 0;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.7);
 }
 .main-header .header-content-fixed:after {
   content: "";
   position: absolute;
-  width: 50.01%;
+  width: 50.001%;
   transition: bottom 1s ease 0.3s, background 1s ease 0s;
   -webkit-transition: bottom 1s ease 0.3s, background 1s ease 0s;
   -moz-transition: bottom 1s ease 0.3s, background 1s ease 0s;
@@ -959,7 +965,7 @@ border-color: #ccc;
   right: 0;
   bottom: 0;
   height: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.65);
 }
 @media (max-width: 1024px) {
   .main-header .header-content-fixed {
@@ -967,16 +973,16 @@ border-color: #ccc;
   }
 }
 .main-header:hover .header-content-fixed:before {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.2);
 }
 .main-header:hover .header-content-fixed:after {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 
 .main-header .name {
   font-size: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-weight: 700;
   position: relative;
   z-index: 3;
@@ -994,6 +1000,14 @@ border-color: #ccc;
   border-bottom: 1px solid #000000;
   padding: 10px;
   letter-spacing: 4px;
+}
+.typed-container {
+	background-color: rgba(0,0,0,0.4);
+        z-index: 2;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	position: fixed;
 }
 /*============================
      06. MAIN-CONTENT
@@ -1066,7 +1080,8 @@ border-color: #ccc;
   float: right;
 }
 .my-profile .my-desc .inner-text {
-  max-width: 585px;
+  max-width: 90%;
+  text-align: justify;
   padding: 40px;
 }
 @media (max-width: 880px) {
@@ -1116,7 +1131,7 @@ border-color: #ccc;
 /*== RESUME ==*/
 .list-employment,
 .list-education {
-  padding: 50px 0;
+  padding: 15px 0 5px 0;
   margin: 0;
   position: relative;
   color: #222;
@@ -1124,7 +1139,7 @@ border-color: #ccc;
 }
 .list-employment li,
 .list-education li {
-  width: 50%;
+  width: 70%;
   clear: both;
   float: left;
   text-align: right;
@@ -1151,7 +1166,7 @@ border-color: #ccc;
   padding-bottom: 10px;
   font-size: 70px;
   top: 10px;
-  color: #ebebeb;
+  color: #888;
   line-height: 70px;
 }
 .list-employment li .desc,
@@ -1177,18 +1192,11 @@ border-color: #ccc;
 }
 .list-employment li:nth-child(odd) .desc,
 .list-education li:nth-child(odd) .desc {
-  padding-right: 0;
+  padding-right: 20px;
   padding-left: 60px;
 }
 .list-employment:before,
 .list-education:before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  height: 100%;
-  width: 1px;
-  background: #ebebeb;
 }
 @media (max-width: 768px) {
   .list-employment li,

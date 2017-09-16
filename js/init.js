@@ -8,6 +8,7 @@
      initClickedEvents();
      initNavbarScroll();
      initGetHWindow();
+     initFitText();
   });
 
   //Run function When PACE (page loader) hide
@@ -21,6 +22,53 @@
     }
   });
  
+  function initFitText() {
+    var width=Math.min($(window).width(),1020);
+    var height=($(window).height()-width/6-100);
+    height=Math.max(1,height);
+    var ratio=(Math.pow(400000/(height*width),1/2));
+    ratio=Math.max(ratio,1);
+    ratio=Math.min(ratio,2.5);
+    var ratio2=Math.min(ratio,1.5);
+    setTimeout(function() {
+        $('h1').css('font-size',64/ratio);
+        $('h2').css('font-size',56/ratio);
+        $('h3').css('font-size',48/ratio);
+        $('h4').css('font-size',32/ratio);
+        $('h5').css('font-size',26/ratio);
+	$('.name').css('letter-spacing',8/ratio);
+	$('.job').css('letter-spacing',4/ratio);
+  	$('.fit-p').css('font-size',18/ratio2);
+  	$('.fit-p2').css('font-size',16/ratio2);
+  	$('.fit-p3').css('font-size',14/ratio2);
+  	$('.fit-p4').css('font-size',12/ratio2);
+	var breadHeight=18/ratio*1.8+" px";
+	$('.breadcrumb').css("line-height",breadHeight);
+	$('.breadcrumb').css("height",breadHeight);
+  	$('a.fit-p3').css('line-height',1.6);
+  	$('i.fit-p').css('line-height',breadHeight);
+        $('.fit-icon').css('font-size',48/ratio);
+	if (height>width) {
+	$('.typed-container').css("top","30%");
+	$('h1.name').html("Nick Lim");
+	} else if (width<768) {
+	$('.typed-container').css("top","40%");
+	$('h1.name').html("Hi, I'm Nick Lim");
+	} else if (width>1019) {
+	$('h1.name').html("Hi, I'm Nick Lim Jin Sean");
+	} 
+	if(width>881) {
+		var pictWidth=$(".my-pict").width();
+		var detailHeight=$("#my-detail").height();
+		if ($(".my-desc").height()<pictWidth) {
+			$("#my-blurb").height(pictWidth-detailHeight);
+		}
+		
+	} else {
+	$(".my-pict").height($(".my-pict").width());
+	}
+	}, 100);
+  }
   //Typed Animation
   function initTyped() {
     $("#typed").typed({
@@ -30,7 +78,7 @@
       // time before typing starts
       startDelay: 100,
       // backspacing speed
-      backSpeed: 40,
+      backSpeed: 10,
       // time before backspacing
       backDelay: 5000,
       // loop
@@ -122,9 +170,7 @@
   //Set header to window
   function initGetHWindow() {
     var wHeight = $(window).height();
-    if (wHeight > 600 && !$('.main-header').hasClass('no-window')) {
       $('.main-header, .header-content-fixed').height(wHeight);
-    }
   }
 
   //Map
