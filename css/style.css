@@ -312,7 +312,7 @@ blockquote {
   font-weight: 300;
 }
 .font-alt {
-  font-family: "Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif";
+  font-family: "Candara","Calibri","Segoe","Segoe UI","Optima","Arial","sans-serif";
 }
 .br-right {
   border-right: 1px solid #ebebeb !important;
