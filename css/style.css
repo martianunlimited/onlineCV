@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700, 800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,800');
 /*
 This files contents are outlined below.
 01. BODY 
@@ -446,16 +446,6 @@ blockquote {
   right: -30px;
   top: 50%;
 }
-.block-title:before {
-  content: "";
-  position: absolute;
-  width: 24px;
-  height: 2px;
-  background: #f5f5f5;
-  bottom: -1px;
-  left: 50%;
-  margin-left: -12px;
-}
 .shape-bottom {
   z-index: 2;
   position: relative;
@@ -784,7 +774,6 @@ padding: 5px 5px;
 .btn-flat-line.btn-default:hover,
 .btn-flat-line.btn-default:focus {
   background: #000000;
-  border-color: #000000;
   color: #ffffff;
 }
 .btn-flat-line.btn-default.light-font {
