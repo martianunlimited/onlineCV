@@ -41,6 +41,7 @@
         $('h3').css('font-size',48/ratio);
         $('h4').css('font-size',32/ratio);
         $('h5').css('font-size',26/ratio);
+        $('.fit-h5').css('font-size',30/ratio);
 	$('.name').css('letter-spacing',8/ratio);
 	$('.job').css('letter-spacing',4/ratio);
   	$('.fit-p').css('font-size',18/ratio2);
