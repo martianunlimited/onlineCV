@@ -32,15 +32,15 @@ body {
   background: #000;
   color: #ddd;
   font-family: 'Open Sans';
-  line-height: 2;
+  line-height: 1.6;
   font-size: 13px;
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
 body .wrapper {
   z-index: 2;
-  visibility: hidden; 
-  opacity: 0.0; 
+  visibility: visible; 
+  opacity: 1.0; 
   position: relative;
 }
 /*============================
@@ -66,7 +66,7 @@ h5 {
   font-size: 1.2em;
 }
 h6 {
-  font-size: 1;
+  font-size: 1em;
 }
 
 
@@ -312,7 +312,7 @@ blockquote {
   font-weight: 300;
 }
 .font-alt {
-  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-family: "Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif";
 }
 .br-right {
   border-right: 1px solid #ebebeb !important;
@@ -460,23 +460,7 @@ blockquote {
   z-index: 2;
   position: relative;
 }
-.shape-bottom:before {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 10px;
-  background: #f5f5f5;
-  border: 1px solid #ebebeb;
-  z-index: 1;
-  bottom: -10px;
-  left: 50%;
-  margin-left: -10px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-}
+
 .error {
   color: #BD2929;
   font-weight: 400;
@@ -556,7 +540,7 @@ blockquote {
 .menu-area .main-nav {
   visibility: visible !important;
   margin: 0;
-  background: solid #000;
+  background: #000;
 }
 .menu-area .main-nav > li {
   display: inline;
@@ -882,16 +866,14 @@ padding: 5px 5px;
 }
 
 .btn-default {
-text-shadow: 0 1px 0 #fff;
-background-image: -webkit-linear-gradient(top,#008 0,#004 100%);
-background-image: -o-linear-gradient(top,#008 0,#004 100%);
-background-image: -webkit-gradient(linear,left top,left bottom,from(#008),to(#004));
-background-image: linear-gradient(to bottom,#008 0,#004 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000080', endColorstr='#ff000040', GradientType=0);
-filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-background-repeat: repeat-x;
-border-color: #dbdbdb;
-border-color: #ccc;
+    text-shadow: 0 1px 0 #fff;
+    background-image: -webkit-linear-gradient(top,#008 0,#004 100%);
+    background-image: -o-linear-gradient(top,#008 0,#004 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#008),to(#004));
+    background-image: linear-gradient(to bottom,#008 0,#004 100%);
+    background-repeat: repeat-x;
+    border-color: #dbdbdb;
+    border-color: #ccc;
 }
 
 
@@ -1061,11 +1043,11 @@ border-color: #ccc;
 }
 .my-profile .my-pict .overfly:hover {
           background: rgba(0,0,0,0.4);
-                .text-botttom{
-                  bottom: -100%;
-                }
-
 }
+.text-botttom{
+  bottom: -100%;
+}
+
 .my-profile .my-desc,
 .my-profile .my-pict {
   width: 50%;
@@ -1088,6 +1070,24 @@ border-color: #ccc;
   .my-profile .my-desc .inner-text {
     max-width: 100%;
   }
+}
+.detail-th {
+    width:30%; 
+    white-space: nowrap; 
+    padding-right:10px; 
+    vertical-align: top;
+}
+
+.detail-td {
+    width:70%; 
+    white-space: pre-wrap;
+    text-align:left;
+}
+.detail-td a {
+  color: #FFF;
+}
+.detail-td a:hover {
+  color: #FF8;
 }
 /*== SERVICES ==*/
 .resumebtn a {

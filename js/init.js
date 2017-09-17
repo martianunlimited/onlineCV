@@ -11,6 +11,11 @@
      initFitText();
   });
 
+    
+  Pace.on('start',function() {
+    $('.wrapper').css('visibility', 'hide');
+    $('.wrapper').css('opacity', '0.0');  
+  });  
   //Run function When PACE (page loader) hide
   Pace.on('hide', function() {
     $('.wrapper').css('visibility', 'visible').animate({opacity: 1.0}, 2000, function() {
