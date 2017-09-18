@@ -36,6 +36,8 @@
     ratio=Math.min(ratio,2.5);
     var ratio2=Math.min(ratio,1.5);
     setTimeout(function() {
+	$('body').css('font-size',16/ratio2);
+/*
         $('h1').css('font-size',64/ratio);
         $('h2').css('font-size',56/ratio);
         $('h3').css('font-size',48/ratio);
@@ -53,15 +55,15 @@
 	$('.breadcrumb').css("height",breadHeight);
   	$('a.fit-p3').css('line-height',1.6);
   	$('i.fit-p').css('line-height',breadHeight);
-        $('.fit-icon').css('font-size',48/ratio);
-	if (height>width) {
+*/
+	if (width>1000) {
+	$('h1.name').html("Hi, I'm Nick Lim Jin Sean");
+	} else if (height>width) {
 	$('.typed-container').css("top","30%");
 	$('h1.name').html("Nick Lim");
 	} else if (width<768) {
 	$('.typed-container').css("top","40%");
 	$('h1.name').html("Hi, I'm Nick Lim");
-	} else if (width>1019) {
-	$('h1.name').html("Hi, I'm Nick Lim Jin Sean");
 	} 
 	if(width>881) {
 		var pictWidth=$(".my-pict").width();
