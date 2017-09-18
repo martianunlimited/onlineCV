@@ -126,7 +126,7 @@
     $('.back-to-top').click(function() {
       $('html, body').stop().animate({
         'scrollTop': 0
-      }, 1500, 'easeInOutExpo', function() {
+      }, 1000, 'swing', function() {
       });
       return false;
     });
@@ -135,7 +135,7 @@
       var target = this.hash, $target = $(target);
       $('html, body').stop().animate({
         'scrollTop': $target.offset().top - ($('.menu-area').outerHeight() - 1)
-      }, 1500, 'easeInOutExpo', function() {
+      }, 1000, 'swing', function() {
         //window.location.hash = target;
       });
       return false;

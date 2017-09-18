@@ -36,7 +36,7 @@ body {
   position: relative;
   -webkit-font-smoothing: antialiased;
 }
-body .wrapper {
+.wrapper {
   z-index: 2;
   visibility: visible; 
   opacity: 1.0; 
@@ -300,7 +300,6 @@ blockquote {
 .box-line {
   border: 3px solid #000000;
   color: #000000;
-  background: #ffffff;
   background: rgba(255, 255, 255, 0.3);
   letter-spacing: 2px;
   padding: 10px 30px;
@@ -520,7 +519,6 @@ blockquote {
   -ms-transition: background 0.8s ease 0s;
   bottom: 0;
   padding: 10px 0;
-  background: #000;
   background: rgba(0, 0, 0, 0.3);
   left: 0;
   border-bottom: 2px solid #141414;
@@ -619,16 +617,16 @@ blockquote {
   border-bottom: 1px solid #111;
   background: #000;
 }
-.menu-area.nav-white-bg .main-nav > li > a {
+.menu-area.nav-black-bg .main-nav > li > a {
   color: #7d7d7d;
 }
-.menu-area.nav-white-bg .main-nav > li > a:hover {
-  color: #000;
+.menu-area.nav-black-bg .main-nav > li > a:hover {
+  color: #fe0;
 }
-.menu-area.nav-white-bg .main-nav > li.active > a {
-  color: #000;
+.menu-area.nav-black-bg .main-nav > li.active > a {
+  color: #fc4;
 }
-.menu-area.nav-white-bg .main-nav > li + li:before {
+.menu-area.nav-black-bg .main-nav > li + li:before {
   color: #111;
 }
 .breadcrumb {
@@ -677,9 +675,7 @@ padding: 5px 5px;
   }
 }
 /*== BUTTONS ==*/
-.btn-default {
-  border-color: #111;
-}
+
 .btn-flat-line {
   font-family: 'Open Sans';
   -webkit-border-radius: 0 !important;
@@ -730,7 +726,6 @@ padding: 5px 5px;
     background-image: -webkit-gradient(linear,left top,left bottom,from(#008),to(#004));
     background-image: linear-gradient(to bottom,#008 0,#004 100%);
     background-repeat: repeat-x;
-    border-color: #dbdbdb;
     border-color: #ccc;
 }
 

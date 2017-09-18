@@ -52,18 +52,7 @@
 }
 
 .pace .pace-activity {
-  font-size: 15px;
-  line-height: 1;
-  z-index: 2000;
-  position: absolute;
-  height: 60px;
-  width: 100px;
 
-  display: block;
-  -webkit-animation: pace-theme-center-atom-spin 2s linear infinite;
-  -moz-animation: pace-theme-center-atom-spin 2s linear infinite;
-  -o-animation: pace-theme-center-atom-spin 2s linear infinite;
-  animation: pace-theme-center-atom-spin 2s linear infinite;
 }
 
 .pace .pace-activity {
@@ -76,6 +65,13 @@
   left: 0;
   height: 60px;
   width: 100px;
+  font-size: 1em;
+  line-height: 1;
+  z-index: 2000;
+  -webkit-animation: pace-theme-center-atom-spin 2s linear infinite;
+  -moz-animation: pace-theme-center-atom-spin 2s linear infinite;
+  -o-animation: pace-theme-center-atom-spin 2s linear infinite;
+  animation: pace-theme-center-atom-spin 2s linear infinite;
 }
 
 .pace .pace-activity:after {
