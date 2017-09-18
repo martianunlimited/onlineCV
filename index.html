@@ -83,9 +83,24 @@
     <!-- Bootstrap -->
     <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <script  src="js/pace.min.js"></script>
+      <script type="text/javascript">
+            Pace.on('start',function() {
+    $('.wrapper').css('visibility', 'hide');
+    $('.wrapper').css('opacity', '0.0');  
+  });  
+  //Run function When PACE (page loader) hide
+  Pace.on('hide', function() {
+    //check if url contain hash(#)
+    if (window.location.hash) {
+      $('.link-inpage[href="' + window.location.hash + '"]').first().trigger('click');
+    }
+  });
+      </script>
+          
+          
     <!-- Typed -->
-      <script  src="js/typed.min.js"></script>
-      <script  src="js/init.js"></script>
+      <script async src="js/typed.min.js"></script>
+      <script async src="js/init.js"></script>
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106553218-1"></script>
 <script>
