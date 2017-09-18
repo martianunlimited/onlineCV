@@ -90,6 +90,7 @@
   });  
   //Run function When PACE (page loader) hide
   Pace.on('hide', function() {
+      $('.wrapper').css('visibility','visible').animate({opacity:1.0},1500);
     //check if url contain hash(#)
     if (window.location.hash) {
       $('.link-inpage[href="' + window.location.hash + '"]').first().trigger('click');
@@ -100,7 +101,7 @@
           
     <!-- Typed -->
       <script async src="js/typed.min.js"></script>
-      <script async src="js/init.js"></script>
+      <script async src="js/init.max.js"></script>
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106553218-1"></script>
 <script>
