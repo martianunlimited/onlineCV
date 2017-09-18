@@ -52,7 +52,7 @@ p{font-size:1em;}
 .menu-area .main-nav.nav > li > a:hover,
 .menu-area .main-nav.nav > li > a:focus{background:transparent;}
 .menu-area .main-nav.no-space > li + li:before{content:"";}
-.menu-area.nav-fixed {position:fixed;top:0;background:#000;z-index:100;bottom:inherit;border-bottom:1px solid #ebebeb;}
+.menu-area .nav-fixed {position:fixed;top:0;background:#000;z-index:100;bottom:inherit;border-bottom:1px solid #ebebeb;}
 .breadcrumb{background-color:#333;padding:5px 5px;}
 @media (min-width:769px){.menu-area .menu-collapse.collapse{display:block;height:auto !important;}
 }
