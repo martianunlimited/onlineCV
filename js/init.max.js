@@ -3,11 +3,11 @@
 
   //Run function When Document Ready
   $(document).ready(function() {
-     initTyped();
+     initGetHWindow();
      initCheckNav();
      initClickedEvents();
      initNavbarScroll();
-     initGetHWindow();
+     initTyped();
      initFitText();
   });
 
