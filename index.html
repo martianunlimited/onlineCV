@@ -61,8 +61,17 @@
 
     <!-- Bootstrap -->
     <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script  src="js/pace.min.js"></script>
+    <script src="js/pace.min.js"></script>
     <script type="text/javascript">
+    Pace.options = { 
+    	ajax: false,
+    	document: false,
+    	eventLag: false,
+    	elements: {
+    		selectors: ['#about','#work','#about','#education','#publication','#miscellanous','#gallery']
+    	}
+    }
+    
     Pace.on('start',function() {
     $('.wrapper').css('visibility', 'hide');
     $('.wrapper').css('opacity', '0.0');  
