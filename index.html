@@ -39,32 +39,35 @@
       
       <!-- jquery -->
       <!-- Merged to a single css file 
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link href="css/style.css" rel="stylesheet" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <link href="css/pace.css" rel="stylesheet" />
       <link href="css/style-full.css" rel="stylesheet">
-      <link href="css/typed.css" rel="stylesheet">  
-    	-->
 
-      <link href="css/style.css" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,800" rel="stylesheet">
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    
     <!-- Initialization Script -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 <!--
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+      <link href="css/typed.css" rel="stylesheet">  
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,800" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script async src="js/typed.min.js"></script>
+      <script async src="js/init.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106553218-1"></script>
 -->
     <!--pace (page loader) style-->
 
 
 
     <!-- Bootstrap -->
-    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/pace.min.js"></script>
     <script type="text/javascript">
     Pace.options = { 
-    	ajax: false,
+    	ajax: true,
     	document: false,
     	eventLag: false,
     	elements: {
@@ -73,12 +76,17 @@
     }
     
     Pace.on('start',function() {
-    $('.wrapper').css('visibility', 'hide');
-    $('.wrapper').css('opacity', '0.0');  
-  });  
+      $('<link>').attr('href','css/typed.css').attr('rel','stylesheet').appendTo('head');  
+      $('<link>').attr('href','https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,800').attr('rel','stylesheet').appendTo('head');
+      $('<link>').attr('href','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css').attr('rel','stylesheet').attr('integrity','sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN').attr('crossorigin','anonymous').appendTo('head');
+      $('<script>').attr('src','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js').attr('integrity','sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa').attr('crossorigin','anonymous').appendTo('head');
+      $('<script>').attr('src','js/typed.min.js').appendTo('head');
+      $('<script>').attr('src','js/init.js').appendTo('head');
+    });  
   //Run function When PACE (page loader) hide
   Pace.on('hide', function() {
       $('.wrapper').css('visibility','visible').animate({opacity:1.0},1500);
+      $('<script>').attr('src','https://www.googletagmanager.com/gtag/js?id=UA-106553218-1').appendTo('head');
     //check if url contain hash(#)
     if (window.location.hash) {
       $('.link-inpage[href="' + window.location.hash + '"]').first().trigger('click');
@@ -87,20 +95,14 @@
   </script>
           
           
-    <!-- Typed -->
-      <script async src="js/typed.min.js"></script>
-      <script async src="js/init.js"></script>
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106553218-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)};
   gtag('js', new Date());
-
   gtag('config', 'UA-106553218-1');
 </script>
 
-    <!-- FontAwesome -->
 
 
    
@@ -126,6 +128,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     <!--wrapper page-->
     <div class="wrapper">
+<script>
+if(!$('body').hasClass('pace-done')) {
+    $('.wrapper').css('visibility', 'hide');
+    $('.wrapper').css('opacity', '0.0');  
+} else {
+	console.log("bug prevented");
+}
+
+</script>
 
       <!-- Main Header -->
       <header class="main-header" id="home">
