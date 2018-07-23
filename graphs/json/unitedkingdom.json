@@ -1,0 +1,1075 @@
+{
+"presentation":"Timeglider",
+"title":"United Kingdom of Israel",
+"description":"",
+"open_modal":true,
+"initial_zoom":45,
+"image_lane_height":200,
+"focus_date":"-1100-01-01 12:00:00",
+"initial_timelines":["time_events", "time_poetry"],
+"timelines":[
+{ "id": "time_events",
+	"title" : "Events",
+	"description" : "",
+	"focus_date" : "-1100-01-01 0:00:00",
+	"initial_zoom" : "54",
+	"size_importance" : "1",
+	"inverted":false,
+	"bottom":250,
+	"events" : [
+                {
+				"id" :           "tg_line_befecbb76b6beef453ae53345a44315e816470",
+                "title" :        "Samuel",
+				"startdate" :    "-1100-01-01 00:00",
+				"enddate" :      "-1011-08-01 00:00",
+				"date_display" :   "ye",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "60",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "sambirth",
+                "title" :        "Dedication of Samuel",
+				"startdate" :    "-1097-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1st Samuel 1",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "50",
+				"y_position" :   "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "samcall",
+                "title" :        "Call of Samuel",
+				"startdate" :    "-1090-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1st Samuel 3",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "battleshiloh",
+                "title" :        "Philistine captures the Ark of Covenent",
+				"startdate" :    "-1070-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1st Samuel 4",
+				"icon" :         "triangle_blue.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"ark.jpg"
+				}
+				,
+                {
+				"id" :           "arkreturn",
+                "title" :        "Philistine returns the Ark",
+				"startdate" :    "-1070-06-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1st Samuel 6",
+				"icon" :         "triangle_green.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "israelrepents",
+                "title" :        "Israel Repents",
+				"startdate" :    "-1050-01-01 0:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"link" :         "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				
+				,
+                {
+				"id" :           "samjudge",
+                "title" :        "Samuel judges Israel",
+				"startdate" :    "-1050-01-01 0:00",
+				"enddate": 	"-1043-01-01 0:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_black.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				
+				
+				,
+                {
+				"id" :           "saullife",
+                "title" :        "Saul",
+				"startdate" :    "-1070-01-01 00:00",
+				"enddate"	:	 "-1010-01-01 00:00",
+				"date_display" :   "ye",
+				"icon" :         "triangle_blue.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "60",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				
+				
+				,
+                {
+				"id" :           "saulking",
+                "title" :        "Saul Becomes King",
+				"startdate" :    "-1043-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 8-10",
+				"icon" :         "triangle_gray.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "60",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"saul-1.jpg"
+				}
+				
+				,
+                {
+				"id" :           "saulammon",
+                "title" :        "Saul defeats the Ammonites",
+				"startdate" :    "-1042-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 11",
+				"icon" :         "triangle_gray.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "50",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				
+				
+				,
+                {
+				"id" :           "saulphilistine",
+                "title" :        "Campaign against the Philistine",
+				"startdate" :    "-1041-01-01 00:00",
+				"enddate" :      "-998-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 13 - 2 Samuel 8",
+				"link" :         "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "60",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,    
+				{
+				"id" :           "saulsacrifice",
+                "title" :        "Saul's unlawful Sacrifice",
+				"startdate" :    "-1041-03-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 13",
+				"link" :         "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "60",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "saulvow",
+                "title" :        "Saul's Rash Vow",
+				"startdate" :    "-1041-06-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1st Samuel 14",
+				"icon" :         "triangle_black.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "saulrejected",
+                "title" :        "Saul's Disobedience",
+				"startdate" :    "-1028-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1st Samuel 15",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"saulrejected.jpg"
+				}
+				
+				,
+                {
+				"id" :           "davidannointed",
+                "title" :        "David annointed by Samuel",
+				"startdate" :    "-1024-01-01 00:00",
+				"date_display" : "ye",
+				"link" :         "http://en.m.wikipedia.org/wiki/Women's_suffrage",
+				"icon" :         "triangle_green.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "50",
+				"modal_type":"default"
+				}
+				
+				
+				,
+                {
+				"id" :           "davidgoliath",
+                "title" :        "David Slays Goliath",
+				"startdate" :    "-1024-06-01 00:00",
+				"date_display" :   "ye",
+				"icon" :         "triangle_green.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "50",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"david-versus-goliath1.jpg"
+				}
+				,
+                {
+				"id" :           "davidjonathan",
+                "title" :        "David and Jonathan's Friendship",
+				"startdate" :    "-1015-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "60",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "davidprotectedfromsaul",
+                "title" :        "David Protected from Saul",
+				"startdate" :    "-1014-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "52",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"davidmichal.jpg"
+				}
+				,
+                {
+				"id" :           "davidjonathancovenent",
+                "title" :        "Jonathan fires his arrow",
+				"startdate" :    "-1013-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"link" :         "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"davidjonathan.jpg"
+				}
+				,
+                {
+				"id" :           "davidfleessaul",
+                "title" :        "David flees from Saul",
+				"startdate" :    "-1011-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_black.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "53",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "davidsparesaul1",
+                "title" :        "David Spares Saul",
+				"startdate" :    "-1011-03-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"davidsparesaul.jpg"
+
+				}
+				,
+				{
+				"id" :           "davidahimelek",
+                "title" :        "David flees to Ahimelek",
+				"startdate" :    "-1011-04-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "davidgath",
+                "title" :        "David flees to Gath",
+				"startdate" :    "-1011-05-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "samueldies",
+                "title" :        "Samuel Dies",
+				"startdate" :    "-1011-06-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "davidsparesaul12",
+                "title" :        "David Spares Saul again",
+				"startdate" :    "-1011-09-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "davidfleesphilistine",
+                "title" :        "David flees to Philistines",
+				"startdate" :    "-1010-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+                {
+				"id" :           "saulandwitch",
+                "title" :        "Saul and the Witch of Endor",
+				"startdate" :    "-1010-06-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"saulwitch.jpg"
+				}
+				,
+				{
+				"id" :           "sauldies",
+                "title" :        "Saul and Jonathan Dies",
+				"startdate" :    "-1010-09-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "davidkingj",
+                "title" :        "David made King over Judah",
+				"startdate" :    "-1010-11-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "abnermurdered",
+                "title" :        "Abner murdered",
+				"startdate" :    "-1005-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "ishboshethmurdered",
+                "title" :        "Ishbosheth murdered",
+				"startdate" :    "-1004-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "davidkingi",
+                "title" :        "David made King over Israel",
+				"startdate" :    "-1003-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "arkjerusalem",
+                "title" :        "The Ark returned to Jerusalem",
+				"startdate" :    "-1000-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"ark2.jpg"
+				}
+				,
+				{
+				"id" :           "davidphilistines",
+                "title" :        "David defeats the Philistines",
+				"startdate" :    "-998-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "davidbathsheba",
+                "title" :        "David commits adultery with Bathsheba",
+				"startdate" :    "-993-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"david-and-bathsheba.jpg"
+				}
+				,
+				{
+				"id" :           "davidrebuked",
+                "title" :        "Nathan rebukes David",
+				"startdate" :    "-991-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"nathandavid.jpg"
+				}
+				,
+				{
+				"id" :           "solomonbirth",
+                "title" :        "Birth of Solomon",
+				"startdate" :    "-990-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "amnontamar",
+                "title" :        "Amnon rapes Tamar",
+				"startdate" :    "-990-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "absalomamnon",
+                "title" :        "Absalom murders Amnon",
+				"startdate" :    "-990-06-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"absalomamnon.jpg"
+				}
+				,
+				{
+				"id" :           "absalomreturns",
+                "title" :        "Absalom returns to Jerusalem",
+				"startdate" :    "-980-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "absalonrevolts",
+                "title" :        "Absalon Revolts",
+				"startdate" :    "-976-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "absalonslain",
+                "title" :        "Absalon slain by Joab",
+				"startdate" :    "-972-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "davidcensus",
+                "title" :        "David counts his men",
+				"startdate" :    "-970-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "davidlastdays",
+                "title" :        "David's Last Days",
+				"startdate" :    "-970-03-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "solomonking",
+                "title" :        "Adonijah revolts, Solomon Crowned King",
+				"startdate" :    "-970-06-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "solomonwisdom",
+                "title" :        "Solomon asks for wisdom",
+				"startdate" :    "-967-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"solomonwisdom.jpg"
+				}
+				,
+				{
+				"id" :           "solomontemple",
+                "title" :        "Solomon builds the Temple",
+				"startdate" :    "-966-01-01 00:00",
+				"enddate" :      "-946-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"solomontemple.jpg"
+				}
+				,
+				{
+				"id" :           "solomonidolatry",
+                "title" :        "Solomon's Idolatry",
+				"startdate" :    "-939-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default",
+				"image":"solomonidolatry.jpg"
+				}
+				,
+				{
+				"id" :           "solomondeath",
+                "title" :        "Solomon's Death",
+				"startdate" :    "-931-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				]},
+				
+{
+    "id": "time_poetry",
+    "title": "Poetry of the United Kingdom",
+    "focus_date": "-1000-01-01 0:00",
+    "initial_zoom": "45",
+	"color": "#82530d",
+	"bottom":200,
+	"inverted": true,
+	"size_importance": "true",
+    "events":
+    [
+    {
+				"id" :           "hannahsong",
+                "title" :        "Song of Hannah",
+				"startdate" :    "-1110-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "saullament",
+                "title" :        "Lament for Saul and Jonathan",
+				"startdate" :    "-1010-09-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "abnerlament",
+                "title" :        "Lament for Abner",
+				"startdate" :    "-1005-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "davidprayer",
+                "title" :        "David's Prayer",
+				"startdate" :    "-1000-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "2 Samuel 7",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "davidpraise",
+                "title" :        "David's Song of Praise",
+				"startdate" :    "-970-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "2 Samuel 22",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "davidlastwords",
+                "title" :        "David's Last Words",
+				"startdate" :    "-970-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "2 Samuel 23",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "solomonprayer",
+                "title" :        "Solomon's Prayer",
+				"startdate" :    "-966-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 King 8",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm59",
+                "title" :        "Psalm 59 (of Deliverence)",
+				"startdate" :    "-1013-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 20",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm52",
+                "title" :        "Psalm 52 fleeing Saul",
+				"startdate" :    "-1012-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 21",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm34",
+                "title" :        "Psalm 34 before Ahimelek",
+				"startdate" :    "-1012-03-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 21",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm56",
+                "title" :        "Psalm 56 at Gath",
+				"startdate" :    "-1012-04-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 21",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm57",
+                "title" :        "Psalm 57,142 in the Cave",
+				"startdate" :    "-1011-03-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 22",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm54",
+                "title" :        "Psalm 54 at Keilah",
+				"startdate" :    "-1011-03-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 23",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm60",
+                "title" :        "Psalm 60,15,24,96,105,106",
+				"startdate" :    "-998-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 23",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm51",
+                "title" :        "Psalm 51 of Repentence",
+				"startdate" :    "-991-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 23",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm63",
+                "title" :        "Psalm 63,41,55",
+				"startdate" :    "-972-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "2 Samuel 16-17",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm108",
+                "title" :        "Psalm 108,37",
+				"startdate" :    "-970-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "2 Samuel 23",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm72",
+                "title" :        "Psalm 72",
+				"startdate" :    "-967-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 23",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm135",
+                "title" :        "Psalm 135,136",
+				"startdate" :    "-959-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 23",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "pslm127",
+                "title" :        "Psalm 127",
+				"startdate" :    "-950-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "proverbs",
+                "title" :        "Proverbs 1-29",
+				"startdate" :    "-967-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "eccle",
+                "title" :        "Ecclesiastes",
+				"startdate" :    "-937-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 23",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+	,
+	{
+				"id" :           "songofsongs",
+                "title" :        "Song of Songs",
+				"startdate" :    "-950-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "1 Samuel 23",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+	}
+    ]
+}
+
+]
+}

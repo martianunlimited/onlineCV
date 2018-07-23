@@ -20,7 +20,7 @@
 		#placement {
 			margin:32px;
 			margin-bottom:0;
-			height:500px;
+			height:1000px;
 		}
 		
 </style>
@@ -29,36 +29,7 @@
 </head>
 <body>
 
-
-<div class='header'>
-<h1>Timeglider Widget: Presentation</h1>
-<p>A "presentation" is a timeline widget displaying multiple timelines simultaneously. Along with presentation metadata, multiple timelines can be loaded in in the data_source (JSON) array:
-
-<pre>
-{
-"presentation":"Timeglider",
-"title":"My Presentation",
-"description":"Description of combined timelines",
-"open_modal":true,
-"initial_zoom":49,
-"image_lane_height":100,
-"focus_date":"1991-06-12 12:00:00",
-"initial_timelines":["mr_life", "hj_life"],
-"timelines":[
-   {"id":"m_life", "title":"Timeline A",..."events":[...]},
-   {"id":"j_life", "title":"Timeline B",..."events":[...]},
-]
-}
-</pre>
-<p>Take a look at <a target='_blank' href='json/presentation.json'>the JSON for this presentation.</a></p>
-</p>
-<p>Timelines can be (using a "bottom" property), and inverted (either true or false) such that two timelines can be "bookmatched" with inverted timelines being laid out from top to bottom, and positioned below a timeline with the default (non-inverted) bottom-up placement of events.</p>
-</div>
-
 <div id='placement'></div>
-
-
-
 
 
 </div>
@@ -112,11 +83,11 @@
 		
 		
 		var tg1 = $("#placement").timeline({
-				"timezone":"-07:00",
+				"timezone":"0:00",
 				"min_zoom":1, 
 				"max_zoom":60, 
 				"show_centerline":true,
-				"data_source":"json/presentation.json",
+				"data_source":"json/unitedkingdom.json",
 				"show_footer":true,
 				"icon_folder":"timeglider/icons/",
 				"display_zoom_level":true			
