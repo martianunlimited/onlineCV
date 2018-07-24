@@ -94,6 +94,19 @@
 	
 		var tg_actor = tg1.data("timeline");
 		
+		function stretchTG() {
+			var doc_ht = $(window).height()
+			$("#placement").css({"height":doc_ht});
+			tg_actor.resize();
+		}
+		
+		window.setTimeout(function() {
+			stretchTG()
+		}, 500);
+		
+		$(window).resize( $.debounce( 250, false, function(e){
+			stretchTG()
+		}));
 		
 		$(".goto").click(function() {
 			var d = $(this).attr("date");
