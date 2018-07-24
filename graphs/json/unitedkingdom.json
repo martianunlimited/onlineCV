@@ -18,8 +18,22 @@
 	"bottom":250,
 	"events" : [
                 {
+				"id" :           "david",
+		                "title" :        "David",
+				"startdate" :    "-1040-01-01 00:00",
+				"enddate" :      "-970-01-01 00:00",
+				"date_display" :   "ye",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "60",
+				"y_position" :         "0",
+				"modal_type":"default"
+		}
+		,
+		{		
 				"id" :           "tg_line_befecbb76b6beef453ae53345a44315e816470",
-                "title" :        "Samuel",
+		                "title" :        "Samuel",
 				"startdate" :    "-1100-01-01 00:00",
 				"enddate" :      "-1011-08-01 00:00",
 				"date_display" :   "ye",
@@ -39,7 +53,7 @@
 				"description" :  "1st Samuel 1",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "50",
 				"y_position" :   "0",
 				"modal_type":"default"
@@ -53,7 +67,7 @@
 				"description" :  "1st Samuel 3",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -67,8 +81,8 @@
 				"description" :  "1st Samuel 4",
 				"icon" :         "triangle_blue.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default",
 				"image":"ark.jpg"
@@ -82,7 +96,7 @@
 				"description" :  "1st Samuel 6",
 				"icon" :         "triangle_green.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -97,12 +111,11 @@
 				"link" :         "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
-				
 				,
                 {
 				"id" :           "samjudge",
@@ -113,17 +126,15 @@
 				"description" :  "",
 				"icon" :         "triangle_black.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "45",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
-				
-				
 				,
                 {
 				"id" :           "saullife",
-                "title" :        "Saul",
+                		"title" :        "Saul",
 				"startdate" :    "-1070-01-01 00:00",
 				"enddate"	:	 "-1010-01-01 00:00",
 				"date_display" :   "ye",
@@ -134,24 +145,21 @@
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
-				
-				
 				,
                 {
 				"id" :           "saulking",
-                "title" :        "Saul Becomes King",
+                		"title" :        "Saul Becomes King",
 				"startdate" :    "-1043-01-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "1 Samuel 8-10",
 				"icon" :         "triangle_gray.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "60",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default",
 				"image":"saul-1.jpg"
 				}
-				
 				,
                 {
 				"id" :           "saulammon",
@@ -161,13 +169,11 @@
 				"description" :  "1 Samuel 11",
 				"icon" :         "triangle_gray.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
-				
-				
 				,
                 {
 				"id" :           "saulphilistine",
@@ -179,8 +185,8 @@
 				"link" :         "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "60",
+				"high_threshold":"55",
+				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -194,8 +200,8 @@
 				"link" :         "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "60",
+				"high_threshold":"55",
+				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -208,8 +214,8 @@
 				"description" :  "1st Samuel 14",
 				"icon" :         "triangle_black.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -222,28 +228,24 @@
 				"description" :  "1st Samuel 15",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default",
 				"image":"saulrejected.jpg"
 				}
-				
 				,
                 {
 				"id" :           "davidannointed",
                 "title" :        "David annointed by Samuel",
 				"startdate" :    "-1024-01-01 00:00",
 				"date_display" : "ye",
-				"link" :         "http://en.m.wikipedia.org/wiki/Women's_suffrage",
 				"icon" :         "triangle_green.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "50",
+				"high_threshold":"55",
+				"importance" :   "55",
 				"modal_type":"default"
 				}
-				
-				
 				,
                 {
 				"id" :           "davidgoliath",
@@ -252,8 +254,8 @@
 				"date_display" :   "ye",
 				"icon" :         "triangle_green.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "50",
+				"high_threshold":"55",
+				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default",
 				"image":"david-versus-goliath1.jpg"
@@ -267,8 +269,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "60",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -281,8 +283,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "52",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default",
 				"image":"davidmichal.jpg"
@@ -297,7 +299,7 @@
 				"link" :         "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default",
@@ -312,8 +314,8 @@
 				"description" :  "",
 				"icon" :         "triangle_black.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "53",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -326,38 +328,23 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"45",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default",
 				"image":"davidsparesaul.jpg"
-
 				}
 				,
 				{
 				"id" :           "davidahimelek",
-                "title" :        "David flees to Ahimelek",
+                "title" :        "David flees to Ahimelek, then to Gath",
 				"startdate" :    "-1011-04-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
-				"y_position" :         "0",
-				"modal_type":"default"
-				}
-				,
-				{
-				"id" :           "davidgath",
-                "title" :        "David flees to Gath",
-				"startdate" :    "-1011-05-01 00:00",
-				"date_display" :   "ye",
-				"description" :  "",
-				"icon" :         "triangle_red.png",
-				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -370,8 +357,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "45",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -384,36 +371,36 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
 				,
-                {
+                		{
 				"id" :           "davidfleesphilistine",
-                "title" :        "David flees to Philistines",
+                "title" :        "David flees to the Philistines",
 				"startdate" :    "-1010-01-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
 				,
-                {
+                		{
 				"id" :           "saulandwitch",
-                "title" :        "Saul and the Witch of Endor",
+                		"title" :        "Saul and the Witch of Endor",
 				"startdate" :    "-1010-06-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default",
 				"image":"saulwitch.jpg"
@@ -427,7 +414,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -441,7 +428,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -455,8 +442,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -469,8 +456,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -483,7 +470,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -497,7 +484,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default",
@@ -512,7 +499,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -526,7 +513,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default",
@@ -541,7 +528,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default",
@@ -556,7 +543,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -570,8 +557,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -579,13 +566,13 @@
 				{
 				"id" :           "absalomamnon",
                 "title" :        "Absalom murders Amnon",
-				"startdate" :    "-990-06-01 00:00",
+				"startdate" :    "-988-06-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default",
 				"image":"absalomamnon.jpg"
@@ -599,21 +586,21 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
 				,
 				{
 				"id" :           "absalonrevolts",
-                "title" :        "Absalon Revolts",
+                "title" :        "Absalom Revolts",
 				"startdate" :    "-976-01-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -621,16 +608,17 @@
 				,
 				{
 				"id" :           "absalonslain",
-                "title" :        "Absalon slain by Joab",
+                "title" :        "Absalom slain by Joab",
 				"startdate" :    "-972-01-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
-				"modal_type":"default"
+				"modal_type":"default",
+				"image":"absalomjoab.jpg"
 				}
 				,
 				{
@@ -641,7 +629,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -655,7 +643,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -669,7 +657,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -683,8 +671,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default",
 				"image":"solomonwisdom.jpg"
@@ -699,7 +687,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default",
@@ -714,7 +702,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default",
@@ -729,8 +717,23 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"55",
 				"importance" :   "55",
+				"y_position" :         "0",
+				"modal_type":"default"
+				}
+				,
+				{
+				"id" :           "solomon",
+                "title" :        "Solomon",
+				"startdate" :    "-990-01-01 00:00",
+				"enddate" :    "-931-01-01 00:00",
+				"date_display" :   "ye",
+				"description" :  "",
+				"icon" :         "triangle_red.png",
+				"low_threshold" :"0",
+				"high_threshold":"60",
+				"importance" :   "60",
 				"y_position" :         "0",
 				"modal_type":"default"
 				}
@@ -755,8 +758,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -769,7 +772,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -783,8 +786,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -797,7 +800,7 @@
 				"description" :  "2 Samuel 7",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -805,27 +808,13 @@
 	,
 	{
 				"id" :           "davidpraise",
-                "title" :        "David's Song of Praise",
+                "title" :        "David's Song of Praise and Last words",
 				"startdate" :    "-970-01-01 00:00",
 				"date_display" :   "ye",
-				"description" :  "2 Samuel 22",
+				"description" :  "2 Samuel 22,23",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
-				"y_position" :         "0",
-				"modal_type":"default"
-	}
-	,
-	{
-				"id" :           "davidlastwords",
-                "title" :        "David's Last Words",
-				"startdate" :    "-970-01-01 00:00",
-				"date_display" :   "ye",
-				"description" :  "2 Samuel 23",
-				"icon" :         "triangle_red.png",
-				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -839,7 +828,7 @@
 				"description" :  "1 King 8",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -847,14 +836,14 @@
 	,
 	{
 				"id" :           "pslm59",
-                "title" :        "Psalm 59 (of Deliverence)",
-				"startdate" :    "-1013-01-01 00:00",
+                "title" :        "Psalm 59",
+				"startdate" :    "-1012-01-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "1 Samuel 20",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -862,12 +851,12 @@
 	{
 				"id" :           "pslm52",
                 "title" :        "Psalm 52 fleeing Saul",
-				"startdate" :    "-1012-01-01 00:00",
+				"startdate" :    "-1011-01-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "1 Samuel 21",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -876,13 +865,13 @@
 	{
 				"id" :           "pslm34",
                 "title" :        "Psalm 34 before Ahimelek",
-				"startdate" :    "-1012-03-01 00:00",
+				"startdate" :    "-1011-03-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "1 Samuel 21",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -890,13 +879,13 @@
 	{
 				"id" :           "pslm56",
                 "title" :        "Psalm 56 at Gath",
-				"startdate" :    "-1012-04-01 00:00",
+				"startdate" :    "-1011-04-01 00:00",
 				"date_display" :   "ye",
 				"description" :  "1 Samuel 21",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -909,8 +898,8 @@
 				"description" :  "1 Samuel 22",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "45",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -923,8 +912,8 @@
 				"description" :  "1 Samuel 23",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "45",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -937,8 +926,8 @@
 				"description" :  "1 Samuel 23",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -951,8 +940,8 @@
 				"description" :  "1 Samuel 23",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -965,8 +954,8 @@
 				"description" :  "2 Samuel 16-17",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"50",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -979,8 +968,8 @@
 				"description" :  "2 Samuel 23",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -993,8 +982,8 @@
 				"description" :  "1 Samuel 23",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -1007,8 +996,8 @@
 				"description" :  "1 Samuel 23",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -1021,8 +1010,8 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
-				"importance" :   "55",
+				"high_threshold":"45",
+				"importance" :   "50",
 				"y_position" :         "0",
 				"modal_type":"default"
 	}
@@ -1035,7 +1024,7 @@
 				"description" :  "",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -1049,7 +1038,7 @@
 				"description" :  "1 Samuel 23",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"
@@ -1063,7 +1052,7 @@
 				"description" :  "1 Samuel 23",
 				"icon" :         "triangle_red.png",
 				"low_threshold" :"0",
-				"high_threshold":"60",
+				"high_threshold":"50",
 				"importance" :   "55",
 				"y_position" :         "0",
 				"modal_type":"default"

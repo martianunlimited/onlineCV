@@ -13,29 +13,22 @@
 <link rel="stylesheet" href="css/jquery-ui-1.8.5.custom.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
 <link rel="stylesheet" href="timeglider/Timeglider.css" type="text/css" media="screen" title="no title" charset="utf-8">
-
- 
 <style type='text/css'>
 		
 		#placement {
-			margin:32px;
+			margin:5px;
 			margin-bottom:0;
-			height:1000px;
-			background-image: "paper-bg.jpg";
+			height:880px;
+			background-image: "url(paper-bg.jpg)";
 		}
 		
 </style>
-
-
 </head>
 <body>
-
 <div id='placement'></div>
 
 
 </div>
-
-	
 	<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
 	<!-- jquery-1.9.1.min.js  OR  jquery-1.10.1.min.js -->
 	<script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript" charset="utf-8"></script>
@@ -85,12 +78,13 @@
 		
 		var tg1 = $("#placement").timeline({
 				"timezone":"0:00",
-				"min_zoom":1, 
-				"max_zoom":60, 
+				"min_zoom":40, 
+				"max_zoom":50, 
 				"show_centerline":true,
 				"data_source":"json/unitedkingdom.json",
 				"show_footer":true,
 				"icon_folder":"timeglider/icons/",
+				"image_lane_height":"100",
 				"display_zoom_level":true			
 		}).resizable({
 			stop:function(){ 
