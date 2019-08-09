@@ -43,18 +43,20 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
       <link href="css/pace.css" rel="stylesheet" />
       <link href="css/style-full.css" rel="stylesheet">
 
    
     <!-- Initialization Script -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-<!--
+
       <link href="css/typed.css" rel="stylesheet">  
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,800" rel="stylesheet">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
       <script async src="js/typed.min.js"></script>
+<!--
       <script async src="js/init.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106553218-1"></script>
@@ -81,7 +83,7 @@
       $('<link>').attr('href','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css').attr('rel','stylesheet').attr('integrity','sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN').attr('crossorigin','anonymous').appendTo('head');
       $('<script>').attr('src','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js').attr('integrity','sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa').attr('crossorigin','anonymous').appendTo('head');
       $('<script>').attr('src','js/typed.min.js').appendTo('head');
-      $('<script>').attr('src','js/init.js').appendTo('head');
+      $('<script>').attr('src','js/init.max.js').appendTo('head');
     });  
   //Run function When PACE (page loader) hide
   Pace.on('hide', function() {
@@ -127,7 +129,6 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     <!--wrapper page-->
-    <div class="wrapper">
 <script>
 if(!$('body').hasClass('pace-done')) {
     $('.wrapper').css('visibility', 'hide');
@@ -140,7 +141,7 @@ if(!$('body').hasClass('pace-done')) {
 
       <!-- Main Header -->
       <header class="main-header" id="home">
-        <div class="content-table header-content-fixed ">
+        <div class=" header-content-fixed ">
             <div class="container typed-container">
               <h1 class="text-uppercase color-light name">Nick Lim Jin Sean</h1>
 	     
@@ -159,14 +160,12 @@ if(!$('body').hasClass('pace-done')) {
 
 
         <!-- Main navbar -->
-        <div class="menu-area nav-fixed nav-black-bg">
+	  <div class="menu-area">
           <div class="toogle-bars">
             <a href="#menu-collapse" data-toggle="collapse" class="collapsed"><i class="fa fa-bars ic-open"></i> <i class="fa fa-remove ic-close"></i>MENU</a>
           </div>
-          <div class="menu-collapse collapse" id="menu-collapse">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-6">
+            <div class="menu-panel nav-fixed nav-black-bg">
+                <div class="menu-left">
                   <ul class="breadcrumb main-nav nav">
                     <li class="active"><a href="#home" class="link-inpage p-minus">Home</a></li>
                     <li ><a href="#about" class="link-inpage p-minus">About</a></li>
@@ -174,7 +173,7 @@ if(!$('body').hasClass('pace-done')) {
                     <li ><a href="#gallery" class="link-inpage p-minus">Gallery</a></li>
                   </ul>
                 </div>
-                <div class="col-sm-6">
+                <div class="menu-right">
                   <ul class="breadcrumb main-nav no-space">
 				     	<li><a href="https://www.facebook.com/martianunlimited" title="My Facebook Profile"><i class="fa fa-facebook icon-sm"></i></a></li>
       		     		<li><a href="https://plus.google.com/u/0/+NickLimJinSean" title="My Google+ Profile"><i class="fa fa-google-plus icon-sm"></i></a></li>
@@ -189,15 +188,14 @@ if(!$('body').hasClass('pace-done')) {
 		     			<li><a href="https://jsfiddle.net/user/martianunlimited/" title="My JS Fiddle"><i class="fa fa-jsfiddle icon-sm"></i></a></li>
                   </ul>
                 </div>
-              </div>
-            </div>
+	     </div>
           </div>
-        </div><!-- End Main navbar -->
       </header><!-- End Main Header -->
+
+    <div class="page">
       <!-- ABOUT ME -->
       <section id="about" class="block-section">
-        <div class="clearfix my-profile">
-          <div class="my-pict" >
+          <div class="clearfix my-pict" >
             <div class="overfly">
               <div class="text-botttom">
                 <h3 class="text-uppercase color-brightorange text-bold">Nick Lim Jin Sean</h3>
@@ -205,7 +203,7 @@ if(!$('body').hasClass('pace-done')) {
               </div>
             </div>
           </div>
-          <div class="my-desc">
+          <div class="clearfix my-desc">
             <div class="bg-light clearfix" id="my-blurb">
               <div class="inner-text">
                 <h4 class=" color-dark no-margin-top">Hello There!</h4>
@@ -228,7 +226,6 @@ if(!$('body').hasClass('pace-done')) {
 		          </table>
               </div>
             </div>
-          </div>
         </div>
       </section><!-- END ABOUT ME -->
 
@@ -283,7 +280,7 @@ if(!$('body').hasClass('pace-done')) {
         </div>
 -->
 
-      <div class="shape-bottom bg-black">
+      <div class="shape-bottom bg-lighter">
         <div class="container bg-light">
           <div class="list-employment" id="work">
             <ul class="list-unstyled  clearfix">
@@ -354,7 +351,7 @@ Beyond my teaching duties I also worked as a Community Ambassador for the facult
             </div>
           </div>
         </div>
-        <div class="shape-bottom bg-black">
+        <div class="shape-bottom bg-lighter">
         <div class="container bg-light">
           <div class="list-education">
             <ul class="list-unstyled  clearfix">
@@ -408,7 +405,7 @@ Beyond my teaching duties I also worked as a Community Ambassador for the facult
             </div>
           </div>
         </div>
-        <div class="shape-bottom bg-black">
+        <div class="shape-bottom bg-lighter">
         <div class="container bg-light">
           <div class="list-publication">
             <ul class="list-unstyled  clearfix">
@@ -472,7 +469,7 @@ This paper presents a comprehensive core power delivery excitation modeling appr
             </div>
           </div>
         </div>
-        <div class="shape-bottom bg-black">
+        <div class="shape-bottom bg-lighter">
         <div class="container bg-light no-padding">
          <div class="bg-darker block-title">
             <div class="container">
@@ -638,7 +635,7 @@ This paper presents a comprehensive core power delivery excitation modeling appr
       <!--PORTFOLIO-->
 
       <section id="gallery" class="block-section">
-      <div class="shape-bottom bg-black">
+      <div class="shape-bottom bg-lighter">
         <div class="parallax-bg" >
           <div class="container bg-dark">
             <div class="padding30 text-center">

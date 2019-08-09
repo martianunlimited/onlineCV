@@ -50,7 +50,7 @@
 	$('h1.name').html("Hi, I'm Nick Lim");
 	} 
 	if(width>881) {
-		var pictWidth=$(".my-pict").width();
+		var pictWidth=width/2;
 		var detailHeight=$("#my-detail").height();
 		if ($(".my-desc").height()<pictWidth) {
 			$("#my-blurb").height(pictWidth-detailHeight);
@@ -149,12 +149,9 @@
   //Condition Navbar
   function conditionNavbar(stopWindow, mainbottom) {
     if (stopWindow > mainbottom) {
-      $('.menu-area').addClass('nav-fixed');
+      $('.menu-area').addClass('nav-fixed nav-black-bg');
     } else {
       $('.menu-area').removeClass('nav-fixed nav-black-bg');
-    }
-    if ((stopWindow) > $('.menu-area').outerHeight()) {
-      $('.menu-area').addClass('nav-black-bg');
     }
   }
 
