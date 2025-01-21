@@ -630,18 +630,30 @@ In my leisure time, I indulge in photography, paper craft, music, and exploring 
 
       <!--PORTFOLIO-->
 
-      <section id="gallery" class="block-section">
-      <div class="shape-bottom bg-black">
-        <div class="parallax-bg" >
-          <div class="container bg-dark">
-            <div class="padding30 text-center">
-                <h4>My Gallery</h4>
-                <p>Some of my miscellenous work.</p>  
-            </div>
-	  </div>
-        </div>
-      </div>
-      </section>
+<section id="gallery" class="block-section">
+  <div class="container">
+    <h2 class="text-center">My Gallery</h2>
+    <p class="text-center">Some of my photos taken during my travels</p>
+    <div class="gallery-grid">
+      <!-- Dynamically generated gallery items for 60 images -->
+      <script>
+        for (let i = 1; i <= 60; i++) {
+          const imgNumber = i.toString().padStart(3, '0');
+          document.write(`
+            <a href="photos/${imgNumber}.jpg" data-lightbox="gallery" data-title="Backpacking Photo ${i}">
+              <img src="photos/${imgNumber}.jpg" alt="Photo ${i}" class="gallery-thumbnail">
+            </a>
+          `);
+        }
+      </script>
+    </div>
+  </div>
+
+  <!-- Lightbox CSS and JS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</section>
+
   
 
       <!--FOOTER-->
