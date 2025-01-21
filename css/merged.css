@@ -267,6 +267,49 @@ p{font-size:1em;}
 .social-links a{position:relative;color:#ffffff;display:block;transition:background 0.8s ease 0s;-webkit-transition:background 0.8s ease 0s;-moz-transition:background 0.8s ease 0s;-o-transition:background 0.8s ease 0s;-ms-transition:background 0.8s ease 0s;width:2em;text-decoration:none;height:2em;font-size:1em;line-height:2em;text-align:center;background:#282828;border-radius:10%;}
 .social-links a i{position:relative;}
 .social-links a:hover{background:#ffffff;color:#000000;}
+/* Style for the gallery grid layout */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Style for individual thumbnails */
+.gallery-grid a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-grid img.gallery-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for thumbnails */
+.gallery-grid img.gallery-thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Style adjustments for the lightbox overlay */
+.lightbox {
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+}
+
+/* Text alignment for gallery section */
+#gallery .text-center {
+  color: #fff;
+}
+
+
+
+
 /*! CSS Used keyframes */
 @keyframes blink{0%{opacity:1;}50%{opacity:0;}100%{opacity:1;}}
 @-webkit-keyframes blink{0%{opacity:1;}50%{opacity:0;}100%{opacity:1;}}
