@@ -1152,3 +1152,45 @@ padding: 5px 5px;
   background: #ffffff;
   color: #000000;
 }
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Style for individual thumbnails */
+.gallery-grid a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-grid img.gallery-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for thumbnails */
+.gallery-grid img.gallery-thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Style adjustments for the lightbox overlay */
+.lightbox {
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+}
+
+/* Text alignment for gallery section */
+#gallery .text-center {
+  color: #fff;
+}
+
+
+
